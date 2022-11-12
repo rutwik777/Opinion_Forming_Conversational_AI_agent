@@ -1,0 +1,307 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting, How can I help?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "my capabilities",
+      "patterns": ["What do you converse on?", "What can you do for me today?", "What do you do?", "What is your area of expertise", "What do you know?", "What can you tell me about?"],
+      "responses": [
+        "I can converse on following topics 'Economic Growth', 'Causes of economic Growth', 'Productivity', 'Policies for economic Growth', 'Benefits of economic growth', 'Types of economic growth', 'Supply side policies', 'Lower cost-push inflation', 'Supply side policies and balance of payments', 'Inflation meaning', 'Causes of Inflation', 'Costs of Inflation', 'Measuring Inflation ', 'Different types of inflation', 'inflation and the exchange rate', 'inflation target', 'Brief history of fiscal policy', 'Evaluation of fiscal policy', 'Criticism of fiscal policy', 'Fiscal Stance', 'Automatic fiscal stabilisers', 'Discretionary fiscal stabilisers', 'Primary budget deficit', 'Fine tuning fiscal policy', 'UK Budget deficit', 'Expansionary (or loose) fiscal policy', 'Deflationary (or tight) fiscal policy', 'purpose of Fiscal Policy', 'Euro currency', 'The Euro has properties', 'Problems of the Euro', 'UK and Euro currency positive', 'UK and Euro currency negative', 'Globalisation', 'Globalisation Positive', 'Globalisation Negative', 'Impact of globalisation on the UK economy', 'Negative Impact of globalisation on the UK economy', 'Migration Positive', 'Migration Negative', 'Tax avoidance. Globalisation', 'Winners from globalisation', 'Losers from globalisation', 'Globalisation Conclusion', 'Global economic cycle negative', 'Global economic cycle positive', 'Monetary policy', 'Aim of monetary policy', 'How monetary policy works', 'Bank of England's interest rates', 'Difficulties of monetary policy', 'An evaluation of UK monetary policy'"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who is your owner?", "Who made you?","Who developed you?","Who is your creator?"],
+      "responses": ["I was created by Rutwik", " I was developed by Rutwik Patil", "I am a pet project of Rutwik Patil"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Economic Growth",
+      "patterns": [" What is the definition of economic growth?"],
+      "responses": ["Economic growth means an increase in real GDP – which means an increase in the value of national output/national expenditure. Economic growth is an important macro-economic objective because it enables increased living standards, improved tax revenues and helps to create new jobs. UK real GDP since 1955, shows sustained rise in national output (despite brief periods of negative economic growth)."]
+    },
+    {
+      "tag": "Causes of economic Growth",
+      "patterns": [" What is the cause of economic growth?"],
+      "responses": ["Causes of economic growth: Eonomic growth is caused by rising demand and an increase in productive capacity. An increase in aggregate demand AD=(C+I+G+X-M) – a rise in consumption, investment, government spending, exports – imports. Increase in aggregate supply (increase in capital, investment, higher labour productivity)"]
+    },
+    {
+      "tag": "Productivity",
+      "patterns": [" What is the key factor behind economic growth?", "What is productivity in Economy?"],
+      "responses": ["Productivity: A key factor in enabling economic growth in the long-term is productivity. Productivity is output per worker.\nIf there is the development of new technology (computers, machines), it means workers will be able to do produce more.\nThis growth in output per worker is a key factor behind economic growth."]
+    },
+    {
+      "tag": "Policies for economic Growth",
+      "patterns": [" What is the purpose of monetary policy?", "What are the policies by government for economic growth?"],
+      "responses": ["Policies to increase economic growth. \n1. Supply-Side Policies\nSupply-side policies are government attempts to increase productivity and increase efficiency in the economy. The aim is to shift Long Run Aggregate Supply (LRAS) to the right. Examples could include:\nIncome tax cuts (to increase incentives to work);\nPrivatisation (Make government-owned firms private to increase the profit-incentive and efficiency.)\nReduce red-tape and bureaucracy which raises costs for firms.\nSpending on education and training to improve labour productivity\nMore on Supply-Side Policies\n2. Monetary policy \nReducing interest rates to stimulate economic activity and increase AD. Lower interest rates reduce the cost of borrowing. This encourages households to spend. Also, it is cheaper for firms to finance investment so investment should rise. If successful, lower interest rates should increase aggregate demand, and in the long-term, increase long-run aggregate supply.\nHowever, lower interest rates may not always cause higher growth. If confidence is very low, firms may still be reluctant to invest.\nAlso, there is a limit to how much monetary policy can increase growth. If the economy is close to full capacity, then rising AD will cause inflation and the growth will be unsustainable.\nSee more at Monetary policy\n3. Fiscal policy\nExpansionary fiscal policy involves higher government spending and/or cutting taxes to boost aggregate demand.  This fiscal policy will lead to higher government borrowing, which can be a constraint on the policy."]
+    },
+    {
+      "tag": "Benefits of economic growth",
+      "patterns": [" What is the main benefit of economic growth?"],
+      "responses": ["Higher incomes for workers and firms.\nIncreased tax revenue for the government which can be spent on public services, e.g. education, pensions and healthcare.\nReduced government debt. Higher economic growth usually reduces the government’s budget deficit because of the improved tax revenues.\nEconomic growth creates employment and helps to reduce unemployment.\nEconomic growth creates a positive feedback loop. Higher growth encourages firms to invest. The increased investment enables higher growth in the future.\nEconomic growth enables a reduction in absolute poverty. In the past 100 years, growth has helped to significantly reduce absolute poverty in Western Europe, the US and recently in Asia."]
+    },
+    {
+      "tag": "Types of economic growth",
+      "patterns": [" What is the definition of the long-run trend rate?", "What are the types of economic growth"],
+      "responses": ["There are different types of economic growth\nBoom and bust economic cycles. If growth is very fast and inflationary, then the growth will prove to be unsustainable and there will be the costs of the recession and an economic downturn.\nExport-led growth. Economies such as Japan and China have experienced export-led growth. This enables economic growth and a current account surplus. China has increased its ownership of foreign assets.\nConsumer-led growth. Since 1979, UK economic growth has been more dependent on consumer spending. The UK has run a persistent current account deficit with fears the economic growth is unbalanced.\nCommodity exports. Some countries very rich in resources have economic growth based on production and export of raw materials. For example, Saudi Arabia (oil), Venezuela (oil), Cuba (sugar) Congo (oil and natural resources). Whilst export of raw materials can increase wealth, it can also cause problems. The resource curse states countries which have growth based on raw materials may struggle in long-term, as raw material industries crowd out other manufacturing industries and make the economic growth more volatile – depending on fluctuating prices.\nLong-run trend rate of economic growth\nThe long-run trend rate is the average sustainable rate of growth over a period of time. The long-run trend rate depends on the growth of productivity and is related to levels of technology and investment."]
+    },
+    {
+      "tag": "Supply side policies",
+      "patterns": [" What are the main macroeconomic objectives of the government?", "What are the supply side policies of gorvernment?"], 
+      "responses": ["Supply side policies are government policies which seek to increase the productivity and efficiency of the economy. They can involve interventionist supply side policies (e.g. government spending on education) or free market supply-side policies (e.g. reduce government legislation)\nThe main macroeconomic objectives of the government include:\nHigher economic growth\nLow inflation\nLow unemployment\nEquilibrium on the balance of payments\nQuite often these objectives conflict with each other. For example, expansionary fiscal policy may contribute to higher economic growth and lower unemployment; however, it will be at the cost of inflation and a deterioration on the current account.\nTo achieve all objectives simultaneously it is essential to improve the supply side of the economy. If the government can increase productivity and shift AS to the right, it can enable low inflationary growth and help improve the general competitiveness of the economy. "]
+    },
+    {
+      "tag": "Lower cost-push inflation",
+      "patterns": [" What is the most important factor in reducing inflation?", "How can inflation be reduced?"],
+      "responses": ["Lower cost-push inflation\nTo attain low inflation, supply side policies can help reduce costs and increase productivity. For example, privatisation and deregulation can help reduce costs.In the 1970s, Europe and US experienced high cost-push inflation. This came mainly from higher oil prices, but a contributory factor was the power of trade unions, pushing up wages. Policies to reduce the power of trade unions will reduce wage-push inflation and keep inflation lower (though it may also lead to greater wage inequality)\nIn the control of inflation, the most significant factor is the use of monetary policy and controlling Aggregate Demand (AD) through interest rates. Supply side policies will take a long time to have any effect on reducing inflationary pressures. \nSupply side policies can be very beneficial with very limited drawbacks. However, in practice it is not always so easy to increase productivity. Also, there is a limit to how much benefit they can give, in a recession is often more appropriate to use demand side policies."]
+    },
+    {
+      "tag": "Supply side policies and balance of payments",
+      "patterns": [" What can be done to reduce congestion and supply bottlenecks?", "How are Supply side policies and balance of payments related?"],
+      "responses": ["Increased productivity can also help the balance of payments. If firms become more competitive, then UK goods will be in greater demand, increasing exports and improving the current account deficit. Supply side policies which are important for exporters will be the quality of transport. Roads and rail-links are quasi-public goods and require government investment. Reducing congestion and supply bottlenecks can help reduce the cost for business."]
+    },
+    {
+      "tag": "Inflation meaning",
+      "patterns": [" What is inflation?"],
+      "responses": ["Inflation is a sustained rise in the cost of living and average price level."]
+    },
+    {
+      "tag": "Causes of Inflation",
+      "patterns": [" What causes inflation? "],
+      "responses": [" Inflation is caused by excess demand in the economy, a rise in costs of production, rapid growth in the money supply."]
+    },
+    {
+      "tag": "Costs of Inflation",
+      "patterns": [" What are costs of Inflation?"],
+      "responses": ["Inflation causes decline in value of savings, uncertainty, confusion and can lead to lower investment."]
+    },
+    {
+      "tag": "Measuring Inflation ",
+      "patterns": [" What is the difference between inflation and inflation?", "How is inflation measured?"],
+      "responses": ["Inflation is measured by CPI and RPI. It is calculated by finding a typical basket of goods. Giving a weighting to goods and measuring price changes every year."]
+    },
+    {
+      "tag": "Different types of inflation",
+      "patterns": [" What are types of inflation?"],
+      "responses": ["cost-push inflation, demand-pull inflation, wage-price spiral"]
+    },
+    {
+      "tag": "inflation and the exchange rate relation",
+      "patterns": [" What can be the effect of inflation on the exchange rate?", "How are inflatation and exchange rate related?"],
+      "responses": [" high inflation can lead to a depreciation in the exchange rate."]
+    },
+    {
+      "tag": "inflation target",
+      "patterns": [" What is the inflation target for the federal government?"],
+      "responses": [" Most governments around the world typically target inflation of 2%"]
+    },
+    {
+      "tag": "Brief history of fiscal policy",
+      "patterns": [" What was the keynesian term for the Great Depression?", "Can you tell give me a brief history of fiscal policy?"],
+      "responses": ["Keynes advocated the use of fiscal policy as a way to stimulate economies during the great depression.\nFiscal Policy was particularly used in the 50s and 60s to stabilise economic cycles. These policies were broadly referred to as �Keynesian\"\nIn the 1970s and 80s governments tended to prefer monetary policy for influencing the economy. Fiscal policy became more prominent during the great depression of 2008-13"]
+    },
+    {
+      "tag": "Evaluation of fiscal policy",
+      "patterns": [" What is the difference between fiscal policy and a deep recession?", "How is fiscal policy measured?"],
+      "responses": ["The success of fiscal policy will depend on several factors, such as\nIt depends on the size of the multiplier. If the multiplier effect is large, then changes in government spending will have a bigger effect on overall demand.\nIt depends on the state of the economy. Fiscal policy is most effective in a deep recession where monetary policy is insufficient to boost demand. In a deep recession (liquidity trap). Higher government spending will not cause crowding out because the private sector saving has increased substantially. See: Liquidity trap and fiscal policy – why fiscal policy is more important during a liquidity trap.\nIt depends on other factors in the economy. For example, if the government pursue expansionary fiscal policy, but interest rates rise, and the global economy is in a recession, it may be insufficient to boost demand.\nBond yields. If there is concern over the state of government finances, the government may not be able to borrow to finance fiscal policy. Countries in the Eurozone experienced this problem in the 2008-13 recession."]
+    },
+    {
+      "tag": "Criticism of fiscal policy",
+      "patterns": [" What is the reason for the increase in government spending?", "Can do you say on criticism of fiscal policy?"],
+      "responses": ["The government may have poor information about the state of the economy and struggle to have the best information about what the economy needs.\nTime lags. To increase government spending will take time. It could take several months for a government decision to filter through into the economy and actually affect AD. By then it may be too late.\nCrowding out. Some economists argue that expansionary fiscal policy (higher government spending) will not increase AD because the higher government spending will crowd out the private sector. This is because the government have to borrow from the private sector who will then have lower funds for private investment.\nGovernment spending is inefficient. Free market economists argue that higher government spending will tend to be wasted on inefficient spending projects. Also, it can then be difficult to reduce spending in the future because interest groups put political pressure on maintaining stimulus spending as permanent.\nHigher borrowing costs. Under certain conditions, expansionary fiscal policy can lead to higher bond yields, increasing the cost of debt repayments."]
+    },
+    {
+      "tag": "Fiscal Stance",
+      "patterns": [" What is the definition of expansionary policy?", "What is fiscal Stance?"],
+      "responses": ["This refers to whether the government is increasing AD or decreasing AD, e.g. expansionary or tight fiscal policy"]
+    },
+    {
+      "tag": "Automatic fiscal stabilisers",
+      "patterns": [" What will happen if the economy is growing?", "What is Automatic fiscal stabiliser?"],
+      "responses": ["If the economy is growing, people will automatically pay more taxes ( VAT and Income tax) and the Government will spend less on unemployment benefits. The increased T and lower G will act as a check on AD. But, in a recession, the opposite will occur with tax revenue falling but increased government spending on benefits, this will help increase AD"]
+    },
+    {
+      "tag": "Discretionary fiscal stabilisers",
+      "patterns": [" What is the purpose of the tax increase?", "What is Discretionary fiscal stabilisers"],
+      "responses": ["This is a deliberate attempt by the government to affect AD and stabilise the economy, e.g. in a boom the government will increase taxes to reduce inflation."]
+    },
+    {
+      "tag": "Primary budget deficit",
+      "patterns": [" what is a measure of government spending?", "What is Primary budget deficit?"],
+      "responses": ["a measure of government spending – tax receipts but ignoring interest payments on the debt."]
+    },
+    {
+      "tag": "Fine tuning fiscal policy",
+      "patterns": [" What is the definition of fiscal policy fine tuning?"],
+      "responses": ["Definition of Fine Tuning: This involves maintaining a steady rate of economic growth by using fiscal policy. For example, if growth is below the trend rate of growth, the government can cut tax to boost spending and economic growth. If growth is too fast and inflationary, the government can increase income tax to slow down consumer spending and reduce economic growth.\nIn theory, the government can make incremental changes to spending and taxation levels to slow down or speed up the economy.\nDifficulties of fine tuning\nIn the real world, fine tuning is difficult to achieve due to several factors."]
+    },
+    {
+      "tag": "UK Budget deficit",
+      "patterns": ["How did UK deal with recession and Budget deficit?"],
+      "responses": ["In 2009, the government pursued expansionary fiscal policy. In response to a deep recession (GDP fell 6%) the government cut VAT in a bid to boost consumer spending. This caused a big rise in government borrowing (2009-10). (Government borrowing also rose because of the recession leading to lower tax revenue)\nWhen the new coalition government came into power in May 2010, they argued the deficit was too high and then announced plans to reduce government borrowing. This involved spending limits. These austerity measures were a factor in causing lower economic growth in 2011 and 2012."]
+    },
+    {
+      "tag": "Expansionary (or loose) fiscal policy",
+      "patterns": [" What is the effect of a light fiscal policy on the budget deficit?","What is Expansionary (or loose) fiscal policy"],
+      "responses": ["This involves increasing AD.\nTherefore the government will increase spending (G) and cut taxes (T). Lower taxes will increase consumers spending because they have more disposable income (C)\nThis will tend to worsen the government budget deficit, and the government will need to increase borrowing."]
+    },
+    {
+      "tag": "Deflationary (or tight) fiscal policy",
+      "patterns": [" What is the effect of a tight fiscal policy on the budget deficit?","What is Deflationary (or tight) fiscal policy"],
+      "responses": ["This involves decreasing AD.\nTherefore the government will cut government spending (G) and/or increase taxes. Higher taxes will reduce consumer spending (C)\nTight fiscal policy will tend to cause an improvement in the government budget deficit."]
+    },
+    {
+      "tag": "purpose of Fiscal Policy",
+      "patterns": [" What is the purpose of fiscal policy?"],
+      "responses": ["Stimulate economic growth in a period of a recession.\nKeep inflation low (the UK government has a target of 2%)\nFiscal policy aims to stabilise economic growth, avoiding a boom and bust economic cycle.\nFiscal policy is often used in conjunction with monetary policy. In fact, governments often prefer monetary policy for stabilising the economy."]
+    },
+    {
+      "tag": "Euro currency",
+      "patterns": ["What is the Euro currency?"],
+      "responses": ["The Euro is the single European countries adopted by 18 out of 28 EU countries. The UK has not joined."]
+    },
+    {
+      "tag": "The Euro has properties",
+      "patterns": [" What are the benefits of the euro?", "What are the properties of Euro?"],
+      "responses": ["Common currency\nCommon monetary policy – Eurozone interest rates set by the ECB in Brussels.\nSome fiscal rules, e.g. The Fiscal Compact (2012) limiting the amount of government borrowing (a balanced budget of less than 3% of GDP)\nThe Euro is the second largest reserve currency in the world after the US Dollar.\nBenefits of the Euro\nLower transaction costs for trade, tourism and consumers.\nGreater price transparency (leading to more price competition and lower prices for consumers)\nEliminates exchange rate volatility, encouraging trade and inward investment.\nIn theory, lower inflation and lower interest rates.\nSee more: benefits of the Euro"]
+    },
+    {
+      "tag": "Problems of the Euro",
+      "patterns": [" What is the reason why the Euro is not a good place to be?", "What are the problems with Euro currency?"],
+      "responses": ["Common monetary policy not always suitable for all 18 members. e.g. southern Eurozone in recession, but ECB have kept monetary policy quite tight (relatively high interest rates). This means countries can be at risk of recession (if ECB keep interest rates too high) or boom if ECB don’t tackle inflationary pressure in that country.\nUncompetitiveness. Countries in the Euro cannot devalue their currency against European neighbours. If an economy becomes uncompetitive (e.g. relatively higher inflation / wages) then they will become uncompetitive and there will be: a fall in demand for exports and growth and a current account deficit.\nGeographical immobilities. The Eurozone is quite diverse, it is difficult for unemployed Spanish workers to move to Germany to take advantage of jobs there. This lack of mobility makes a common monetary policy difficult.\nFiscal compact has created pressure for austerity, leading to lower growth. Countries in the Eurozone have few policies to increase aggregate demand (AD) in a recession.\nHigher bond yields. Countries in Eurozone have faced rising bond yields because they have no Central Bank to act as lender of last resort.\nRecession and low growth. Since 2008, the Eurozone has experienced low growth, high unemployment. Many fear the Eurozone has a deflationary bias."]
+    },
+    {
+      "tag": "UK and Euro currency positive",
+      "patterns": ["Why should UK join Euro? "],
+      "responses": ["Yes. Reduced exchange rate volatility. Encourage trade and inward investment with main trading partners"]
+    },
+    {
+      "tag": "UK and Euro currency negative",
+      "patterns": ["Why should UK not join Euro?"],
+      "responses": ["No. UK would suffer from losing independent monetary policy, e.g. no quantitative easing could have made recession worse.\nUK housing market very sensitive to interest rates.\nUK exports could end up becoming uncompetitive lack Southern Europe\nGrowth likely to be lower.\nPast five years suggest membership of the Euro could contribute to very serious recession."]
+    },
+    {
+      "tag": "Globalisation",
+      "patterns": ["What is the pros and cons of globalisation?", "What is Globalisation?"],
+      "responses": ["Globalisation involves the increased integration and interdependence of the global economy. It means there will be a rise in trade, and increase in movement of labour and capital. There are both pros and cons of globalisation."]
+    },
+    {
+      "tag": "Globalisation Positive",
+      "patterns": [" What are the benefits of Globalisation?"],
+      "responses": ["The benefits include greater competition, lower prices, economies of scale"]
+    },
+    {
+      "tag": "Globalisation Negative",
+      "patterns": [" What are the negative points of Globalisation?"],
+      "responses": ["Critics argue globalisation can leave many left behind due to the pace of progress which gives more power to large multinationals – enabling them to avoid tax but use monopoly power to charge high prices."]
+    },
+    {
+      "tag": "Impact of globalisation on the UK economy",
+      "patterns": [" What does the UK have to gain from globalisation?"],
+      "responses": ["Increased trade. Globalisation and increased trade mean UK firms can benefit from specialising in goods where they have a comparative advantage. For example, the UK has a comparative advantage in goods such as financial services, video gaming and nuclear power components. This comparative advantage enables higher exports which creates jobs. see: comparative advantage\nGreater choice of imports. Globalisation has significantly increased the choice of consumer goods. For example, we have become accustomed to the year-round availability of fruit and vegetables due to food imports.\nIncreased competition/lower prices. Globalisation means that domestic monopolies will now face more international competition. This leads to lower prices for consumers. This is particularly noticeable in industries such as clothing, electronics and food – where the UK is a net importer.\nLower costs for firms. Globalisation makes it easier to outsource parts of the production process (e.g. call centres, web development) to countries with lower labour costs. Firms can make use of technology to interact with people around the world. This will help reduce costs and prices."]
+    },
+    {
+      "tag": "Negative Impact of globalisation on the UK economy",
+      "patterns": ["What are negative Impacts of globalisation on the UK economy?"],
+      "responses": ["Outsourcing can lead to domestic job-losses and lower quality of service."]
+    },
+    {
+      "tag": "Migration Positive",
+      "patterns": [" What is the role of the UK in the world of migration and globalisation?", "What are positive Impacts of Migration"],
+      "responses": ["Migration. Globalisation makes it easier for migrants to enter and work in the UK. This free movement of labour can help the UK to fill job vacancies. This is important in industries such as fruit picking and the NHS where firms often find labour shortages."]
+    },
+    {
+      "tag": "Migration Negative",
+      "patterns": [" What can be done to reduce the stress on housing and services?", "What are negative Impacts of Migration"],
+      "responses": ["However, mass migration can also place greater stress on UK housing and public services because of the net migration of people into the UK. Concerns over levels of migration led to Brexit vote – widely seen as a vote against globalisation."]
+    },
+    {
+      "tag": "Tax avoidance in Globalisation",
+      "patterns": [" What is the impact of globalisation and tax avoidance on the UK?", "What are the tax avoidance startegies?"],
+      "responses": ["Globalisation has enabled firms to shift production from high tax countries to low tax countries. Often this is just taking advantage of tax loopholes. For example, companies like Apple, Amazon and Google have taken advantage of low tax rates in countries like Bermuda, Luxembourg and Ireland. This means UK treasury loses out on tax revenue. Multinationals have very high levels of cash reserves – indicative of the fact globalisation has led to the unequal distribution of the benefits.\nGrowing inequality. Recent decades have seen growing levels of inequality, with top 1% of income earners gaining a higher share of income.\nEnvironment. Globalisation and growing global economy have implications for the environmental state of the world and the UK. Global warming will impact the UK."]
+    },
+    {
+      "tag": "Winners from globalisation",
+      "patterns": [" Who can benefit from Globalisation?", "Who are winners from Globalisation?"],
+      "responses": ["Winners from globalisation include, Firms with comparative advantage, e.g. high-tech software firms\nHigh-income earners\nWealthy who can invest abroad and take advantage of lower tax rates.\nWorkers who gain employment in export industry\nConsumers who benefit from cheaper prices"]
+    },
+    {
+      "tag": "Losers from globalisation",
+      "patterns": [" Who can lose from Globalisation?", "Who are loosers from Globalisation?"],
+      "responses": ["Unskilled manual labour who have seen a decline in employment opportunities with the structural change to the economy.\nAverage taxpayers who lose out from tax avoidance schemes\nThe environment which is experiencing global warming and loss of natural resources."]
+    },
+    {
+      "tag": "Globalisation Conclusion",
+      "patterns": [" What are the benefits of globalisation for the UK economy?", "What is conclusion on globalisation?"],
+      "responses": ["In many senses, globalisation is not a new phenomenon for the UK economy. The UK has benefitted from a more globalised world ever since first exports and imports. During the industrial revolution, global ties were important for enabling the UK to import raw materials and exports goods. Recent decades are a continuation of this process of globalisation and we often forget the obvious benefits. The benefit of a greater choice of imports, lower prices and economies of scale in production."]
+    },
+    {
+      "tag": "Global economic cycle negative",
+      "patterns": [" What is the impact of the global economic cycle on the UK?", "Why is Global economic cycle negative?"],
+      "responses": ["The UK is more affected by the global economic cycle. For example, a deep recession in the EU/US will affect the UK, because we rely on the EU and US to export many goods. The global credit crunch had a very damaging impact on UK economy because we were affected by the financial crisis in other countries."]
+    },
+    {
+      "tag": "Global economic cycle positive",
+      "patterns": [" What is the main problem of the US and UK?", "Why is Global economic cycle positive?"],
+      "responses": ["Shifting sectors/structural unemployment Globalisation will lead to a shift in the sectors of the economy. For example, the UK no longer has a comparative advantage in many manufacturing industries, Developing countries now have an advantage due to lower labour costs. This process can lead to temporary structural unemployment as unemployed workers struggle to gain employment in new industries.\nA problem in US and UK is that many workers feel left behind by the process of globalisation. They feel globalisation enables firms to make more profit, but workers struggle to find new employment which matches their previous jobs in turns of job security, pay and sense of loyalty."]
+    },
+    {
+      "tag": "Monetary policy",
+      "patterns": [" What is monetary policy?"],
+      "responses": ["Monetary policy involves using interest rates and other monetary tools to influence the levels of consumer spending and aggregate demand (AD). In particular monetary policy aims to stabilise the economic cycle – keep inflation low and avoid recessions."]
+    },
+    {
+      "tag": "Aim of monetary policy",
+      "patterns": [ "What is the UK's target for inflation?"],
+      "responses": ["Low inflation. UK target is CPI 2% +/-1. Low inflation is considered an important factor in enabling higher investment in the long-term.\nStable economic growth. Monetary policy is also concerned with maintaining a sustainable rate of economic growth and keeping unemployment low."]
+    },
+    {
+      "tag": "How monetary policy works",
+      "patterns": [" What is the base rate of the UK economy?"],
+      "responses": ["UK monetary policy is set by the Monetary Policy Committee (MPC) of the Bank of England.\nThey are independent in setting interest rates but have to try and meet the government’s inflation target.\nThe Bank of England set the base rate. This is the rate commercial banks borrow from the Bank of England.\nChanging the base rate tends to influence all interest rates in the economy – from saving rates to mortgage and lending rates"]
+    },
+    {
+      "tag": "Bank of England's interest rates",
+      "patterns": [" What is the Bank of England's approach to inflation?", "Can you tell me about Bank of England's interest rates?"],
+      "responses": ["The Bank of England studies inflationary trends in the economy. This involves looking at a range of economic variables such as:\nUnemployment, consumer confidence, spare capacity in the economy, exchange rate index, house prices, economic growth\nFrom these statistics, the Bank of England decides whether inflation is likely to rise or fall.\nIf they expect higher inflation and higher growth, they will tend to increase interest rates.\nIf they expect lower growth and a fall in the inflation rate, they will tend to cut interest rates."]
+    },
+    {
+      "tag": "Difficulties of monetary policy",
+      "patterns": [" What are the limitations of monetary policy?", "What are the difficulties of monetary policy?"],
+      "responses": ["Some limitations of monetary policy include:\nLiquidity Trap – This occurs when a cut in interest rates fail to stimulate economic activity. e.g. because of low confidence or banks don’t want to pass base rate cut onto consumers.\nDifficult to control many objectives with one tool – interest rates. For example, a rise in oil prices causes cost-push inflation and lower growth. The Bank could increase interest rates to reduce inflation, but, it would cause economic growth to fall as well. In 2009, inflation rose to rising oil prices, but the economy was also in recession; the Bank decided to ‘allow’ the temporary inflation and concentrate on economic recovery.\nChanging interest rates affects the exchange rate. Tight monetary policy causes an appreciation in the exchange rate which will make exports less competitive.\nInterest rates may affect some parts of the economy more than others. e.g. higher interest rates increase the disposable income of people with savings. But, could cause homeowners to be unable to afford their mortgages.\nTime lags – If the Bank of England change base rates, it can take up to 18 months for the effects to filter through the economy. For example, if people have a two-year fixed mortgage, they will not notice until they remortgage. This means the Bank needs to predict future inflation so that they can change interest rates in anticipation."]
+    },
+    {
+      "tag": "An evaluation of UK monetary policy",
+      "patterns": [" What would be an evaluation of UK monetary policy?"],
+      "responses": ["In the period 1997-2007, monetary policy effectively kept economic growth and inflation stable. This was because cost-push inflation was low and the independent Bank of England was successful in preventing growth exceeding the long-run trend rate.\nHowever, in the great moderation, despite low inflation, there were imbalances in the economy – such as rising house prices and boom in credit. This shows the limit of monetary policy in preventing a credit bubble.\n2007-2011\nBetween 2007 and 2011, monetary policy became much more difficult. This was because of:\nCost-push inflation and recession. In 2008 and 2011, the UK experienced a rise in CPI inflation to over 5%. (see: cost push inflation) Yet, at the same time, economic growth was very low or negative. This present the Bank of England with a difficulty. On the one hand, inflation is above their target so they should consider raising interest rates. However, with a depressed economy, the economy needs the opposite.\nLiquidity Trap. In 2008, the economy was in a liquidity trap. Cutting interest rates to zero, failed to boost spending and economic growth. Therefore, the Bank of England were forced to pursue quantitative easing."]
+    }
+  ]
+}
