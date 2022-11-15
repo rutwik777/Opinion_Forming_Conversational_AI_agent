@@ -18,3 +18,6 @@ Download or open the folder Experiment 6 in an editor, VS code is recommended an
 path correctly.
 
 Run in terminal “python bot_app.py”
+
+### Project Report
+Kindly refer to project report for detailed algorithmic and experimentation explanation and results
